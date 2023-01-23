@@ -11,7 +11,7 @@ const skillGroupRouter = require("./routes/skillGroup");
 const auth = require("./middleware/auth");
 
 const app = express();
-const port = process.env.PORT || 8004;
+const port = process.env.PORT || 9877;
 const url =
   "mongodb+srv://avinash:jVzfWkq29eTIaUvJ@panelcluster.fvymwmx.mongodb.net/Panel_Management";
 
