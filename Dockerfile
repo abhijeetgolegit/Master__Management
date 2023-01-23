@@ -1,8 +1,7 @@
  # syntax=docker/dockerfile:1
 FROM node:18-alpine
-RUN mkdir -p /app
-WORKDIR /app
-COPY package.json /app
+WORKDIR ./
+COPY . .
 RUN npm install
 CMD ["node", "app.js"]
-EXPOSE 8004
+EXPOSE 9877
